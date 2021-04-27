@@ -1,0 +1,20 @@
+name: BlockPicker
+version: 0.0.1
+main: DavyCraft648\BlockPicker\BlockPicker
+api:
+  - 3.0.0
+website: https://github.com/DavyCraft648/BlockPicker
+description: Tap the block to pick it to your inventory
+author: DavyCraft648
+softdepend:
+  - BetterBlockPick
+  - VanillaPickBlock
+commands:
+  blockpicker:
+    description: Block picker command
+    permission: blockpicker.command
+    aliases:
+      - pickblock
+permissions:
+  blockpicker.command:
+    default: op

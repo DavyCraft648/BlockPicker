@@ -1,0 +1,25 @@
+# BlockPicker plugin configuration
+
+# Message prefix
+prefix: "&a[&bBlockPicker&a]"
+
+# Tap to pick message
+tapToPickMessage: "&aTap the block!"
+
+# Picked message
+# {ITEM_NAME} = Picked block item name
+# {ITEM_ID} = Picked block item id
+# {ITEM_META} = Picked block item meta
+# {BLOCK_NAME} = Picked block name
+# {BLOCK_ID} = Picked block id
+# {BLOCK_META} = Picked block meta
+pickedMessage: "&aPicked &b{ITEM_NAME} &a(&e{ITEM_ID}&6:&e{ITEM_META}&a)"
+
+# Don't remove block data for item (like block rotation or bitflag)
+# e: Upper slab item
+dontRemoveData: false
+
+# Add BetterBlockPick plugin support for BLOCK PICKING
+# Set this to true if BetterBlockPick is installed
+# (pickedMessage and dontRemoveData will not handled by BlockPicker)
+betterBlockPick: false
